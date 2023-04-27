@@ -45,7 +45,6 @@ print(rect < rect1)
 print(rect > rect1)
 print(len(rect1))
 
-
 # ###############################################################################
 #
 # створити класс Human (name, age)
@@ -58,6 +57,8 @@ print(len(rect1))
 # також має бути метод классу який буде виводити це значення
 #
 print('-' * 40)
+
+
 class Human:
     def __init__(self, name: str, age: int):
         self.name = name
